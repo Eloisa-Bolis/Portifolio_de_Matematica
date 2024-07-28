@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Hexadecimal</title>
+</head>
+<body bgcolor="ffe088">
+<dd>
+
+    <center><h1 style="font-size: 55px;">Sistema Hexadecimal</h1></center>
+    <hr />
+
+        <p style="font-size: 20px;">O sistema de numeração hexadecimal também é conhecido como <u><b>base 16</b></u>, ele tem esse nome pois utiliza 16 algarismos ou simbolos diferentes para representar os números.
+        Os algarismos utilizados são <b>( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F )</b>.</p>
+
+    <h2 style="font-size: 40px;">Conversão de Decimal para Hexadecimal</h2>
+    <ul>
+        <p style="font-size: 21px;"><b>Base 10 -----> Base 16</b></p>
+    </ul>
+        <p style="font-size: 20px;">Para converter da base 10 para a base 16 é utilizado o medodo de divisões consecutivas,ou também conhecido 
+        como metodo da escadinha. Você terá que dividir o numero consecutivamente por 16 guardando o resto até não ser mais 
+        possivél dividir o resto</p>
+
+    <center>
+        <table>
+            <tr>
+                <td><img width="400" src="img/hexa-conv-a.jpg" /></td>
+                <td style="font-size: 20px;">Nesse caso o número (21)<sub>10</sub> foi dividido por 8 assim o resultado sendo (15)<sub>16</sub></td>
+                <td><img width="450" src="img/hexa-conv-b.jpg"/></td>
+                <td style="font-size: 20px;">Aqui é o mesmo caso sendo pego do último(1) para o primeiro(14/E).</td>
+            </tr>
+        </table>   
+        <hr />
+        <table>
+            <tr>
+                <td><img width="400" src="img/hexa-conv-c.jpg"/></td>
+                <td style="font-size: 20px;">Aqui o (15)<sub>10</sub> é tranforma do em (F)<sub>16</sub>, pois esse digito não "existe" na base 16</td>
+                <td><img width="450" src="img/hexa-conv-d.jpg"/></td>
+                <td style="font-size: 20px;">Nesse caso o (A)<sub>16</sub> já foi transformado, valia (10)<sub>10</sub>.</td>
+            </tr>
+        </table>
+    </center>  
+        
+    <h2 style="font-size: 40px;">Conversão de Hexadecimal para Decimal</h2>
+    <ul>
+        <p style="font-size: 21px;"><b>Base 16 -----> Base 10</b></p>
+    </ul>
+    <table>
+        <tr>
+            <td><img width="500" src="img/hexa-conv-Deci.jpg"/></td>  
+            <td style="font-size: 20px;" rowspan="2">Para trasnformar um número hexadecimal para decimal cada dígito deve ser multiplicado por potências de 16.
+            <p>Como no exemplo aqui deve-se começar pelo último digito sendo multiplicado por 16<sup>0</sup>, o penultimo por 16<sup>1</sup> e por ai vai.</p>
+            <p>Após isso, é necessário fazer uma cona de adição com os resultados das potências</p>
+            <p>Quando o número tiver as letras A, B, C, D, E e F, substituir por 10, 11, 12,13, 14 e 15</p></td>           
+        </tr>
+        <tr>
+            <td><img width="500" src="img/hexa-conv-Deci-2.jpg" /></td>
+        </tr>
+    </table>
+
+    <h2 style="font-size: 40px;">Conversão de Bináio para Octal</h2>
+    <ul>
+        <p style="font-size: 21px;"><b>Base 2 -----> Base 16</b></p>
+    </ul>
+        <p style="font-size: 20px;">O procedimento para essa conversão é muito parecido com a realizada na
+        conversão da Base 2 para Base 8, pois 16 também é uma potência de 2, isto é,
+        16 = 2<sup>4</sup>. Com isso, podemos dizer que precisamos de 4 dígitos binários para
+        designar 1 dígito hexadecimal</p>
+        <p style="font-size: 20px;">Assim podemos ir da base 2 direto pra base 16, como no exemplo:</p>
+    <table style="font-size: 20px;">
+        <tr>
+            <td><img width="500" src="img/BpraH-conv.jpg"/></td>
+            <td>No caso B: 
+            <p>(1)<sub>2</sub> ou (0001)<sub>2</sub> é = (1)<sub>16</sub></p>
+            <p>(0011)<sub>2</sub> é = (3)<sub>16</sub></p>
+            <p>(1010)<sub>2</sub> é = (A)<sub>16</sub></p></td>
+        </tr>
+    </table>
+
+        <p style="font-size: 20px;">Também é possível fazer a conversão ao contrário transformando um número hexadecimal em binário como:</p>
+   
+    <table style="font-size: 20px;">
+        <tr>
+            <td><img width="400" src="img/HpraB-conv.jpg"/></td>
+            <td>No caso A: 
+                <p>(A)<sub>16</sub> é = (1010)<sub>2</sub></p>
+                <p>(B)<sub>16</sub> é = (1011)<sub>2</sub></p>
+                <p>(C)<sub>16</sub> é = (1100)<sub>2</sub></p></td>
+        </tr>
+    </table>
+    <figure>
+        <center><img src="img/tabela-equi-hexa.png"/></center>
+        <figcaption>Crédito da imagem: Doc. prof. Váleria</figcaption>
+    </figure> 
+        
+    <center>
+        <h1 style="font-size: 40px;"><b>Tabela dos Hexadecimais</b></h1>
+            <table border="1" Width="80%" bgcolor="fff2a6" style="font-size: 20px;">
+                <tr bgcolor="f9d05e">
+                    <th>Sistema Decimal</th>
+                    <th><font color="red">Sistema Hexadecimal</font></th>
+                    <th>Sistema Decimal</th>
+                    <th><font color="red">Hexadecimal</th>
+                    <th>Sistema Decimal</th>
+                    <th><font color="red">Sistema Hexadecimal</th>
+                </tr>
+                <tr0>
+                    <th>0</th>
+                    <th><font color="red">0</font></th>
+                    <th>17</th>
+                    <th><font color="red">11</font></th>
+                    <th>34</th>
+                    <th><font color="red">22</font></th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th><font color="red">1</font></th>
+                    <th>18</th>
+                    <th><font color="red">12</font></th>
+                    <th>35</th>
+                    <th><font color="red">23</font></th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th><font color="red">2</font></th>
+                    <th>19</th>
+                    <th><font color="red">13</font></th>
+                    <th>36</th>
+                    <th><font color="red">24</font></th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th><font color="red">3</font></th>
+                    <th>20</th>
+                    <th><font color="red">14</font></th>
+                    <th>37</th>
+                    <th><font color="red">25</font></th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th><font color="red">4</font></th>
+                    <th>21</th>
+                    <th><font color="red">15</font></th>
+                    <th>38</th>
+                    <th><font color="red">26</font></th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th><font color="red">5</font></th>
+                    <th>22</th>
+                    <th><font color="red">16</font></th>
+                    <th>39</th>
+                    <th><font color="red">27</font></th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <th><font color="red">6</font></th>
+                    <th>23</th>
+                    <th><font color="red">17</font></th>
+                    <th>40</th>
+                    <th><font color="red">28</font></th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <th><font color="red">7</font></th>
+                    <th>24</th>
+                    <th><font color="red">18</font></th>
+                    <th>41</th>
+                    <th><font color="red">29</font></th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <th><font color="red">8</font></th>
+                    <th>25</th>
+                    <th><font color="red">19</font></th>
+                    <th>42</th>
+                    <th><font color="red">2A</font></th>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <th><font color="red">9</font></th>
+                    <th>26</th>
+                    <th><font color="red">1A</font></th>
+                    <th>43</th>
+                    <th><font color="red">2B</font></th>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <th><font color="red">A</font></th>
+                    <th>27</th>
+                    <th><font color="red">1B</font></th>
+                    <th>44</th>
+                    <th><font color="red">2C</font></th>
+                </tr>
+                <tr>
+                    <th>11</th>
+                    <th><font color="red">B</font></th>
+                    <th>28</th>
+                    <th><font color="red">1C</font></th>
+                    <th>45</th>
+                    <th><font color="red">2D</font></th>
+                </tr>
+                <tr>
+                    <th>12</th>
+                    <th><font color="red">C</font></th>
+                    <th>29</th>
+                    <th><font color="red">1D</font></th>
+                    <th>46</th>
+                    <th><font color="red">2E</font></th>
+                </tr>
+                <tr>
+                    <th>13</th>
+                    <th><font color="red">D</font></th>
+                    <th>30</th>
+                    <th><font color="red">1E</font></th>
+                    <th>47</th>
+                    <th><font color="red">2F</font></th>
+                </tr>
+                <tr>
+                    <th>14</th>
+                    <th><font color="red">E</font></th>
+                    <th>31</th>
+                    <th><font color="red">1F</font></th>
+                    <th>48</th>
+                    <th><font color="red">30</font></th>
+                </tr>
+                <tr>
+                    <th>15</th>
+                    <th><font color="red">F</font></th>
+                    <th>32</th>
+                    <th><font color="red">20</font></th>
+                    <th>49</th>
+                    <th><font color="red">31</font></th>
+                </tr>
+                <tr>
+                    <th>16</th>
+                    <th><font color="red">10</font></th>
+                    <th>33</th>
+                    <th><font color="red">21</font></th>
+                    <th>50</th>
+                    <th><font color="red">32</font></th>
+                </tr>
+                
+            </table>
+    </center>
+    
+    <p align="right" style="font-size: 20px;"><b>fonte: </b> documentos prof. Váleria</p>
+    <h2 align="right"><a href="1_Index.html">Voltar</a></h2>
+
+</dd>
+</body>
+</html>
